@@ -37,8 +37,8 @@ void print_usage(const string &custom_error = "", bool show_usage_info = true)
         cout << "Where `flag` is either `-c` for compression, or `-d` for decompression, and" <<endl;
         cout << "`input` and `output` are distinct files." <<endl;
         cout << "Examples: " <<endl;
-        cout << "\t ./cassie -c lorem.txt lorem.grm" <<endl;
-        cout << "\t ./cassie -d lorem.grm lorem.txt" <<endl;
+        cout << "\t ./cassie -c sample_file.txt output_file.grm" <<endl;
+        cout << "\t ./cassie -d output_file.grm sample_file.txt" <<endl;
     }
 
     cout << endl;
